@@ -1,7 +1,6 @@
 # httpdaddy
 
 A high-performance, multi-threaded HTTP 1.1 server written in Nim.
-> :information_source: Unless you're developing something with specific resource constraints or creating your own web framework, consider using [Jester](https://github.com/dom96/jester) (which is built on httpdaddy) or another web framework.
 
 > :information_source: This HTTP server is designed to utilize epoll-like OS APIs and does not support Windows by design.
 
